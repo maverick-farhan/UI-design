@@ -1,0 +1,285 @@
+/* TIP 01- Breakpoints always in descending order*/
+/* TIP 02- HTML CSS JS are all about preference. Link according to preference*/
+/*TIP 02.01 - @media file after style.css and cdn is before main. Becoz CDNs must load before main style to render corectly 
+ *
+ * And responsive after main style will overwrite the css at their breakpoints*/
+
+@media only screen and (max-width: 1440px){
+html,body{
+width:100%;
+height:100%;
+}
+header{
+width:100%;
+height:10vh;
+}
+nav{
+padding:0px 3rem;
+}
+div.hero-content{
+padding-top:100px;
+}
+
+div.hero-content h1.heading-content{
+font-size:60px;
+margin-top:3rem;
+}
+div.hero-banner img{
+width:90%;
+}
+}
+
+@media only screen and (max-width: 1024px){
+html,body{
+width:100%;
+height:100%;
+}
+header{
+width:100%;
+height:10vh;
+}
+nav{
+padding:0px 2rem;
+}
+div.hero-content{
+padding-top:20px;
+}
+
+div.hero-content h1.heading-content{
+font-size:50px;
+}
+
+button.main-btn{
+width:100px;
+padding:10px;
+}
+
+
+div.hero-banner img{
+width:100%;
+margin-top:3rem;
+}
+
+section.about{
+width:100vw;
+}
+
+div.about-wrapper h1.heading-about{
+font-size:50px;
+}
+
+section.why-choose h1{
+font-size:50px;
+}
+
+ul.choose-list li{
+font-size:18px;
+}
+
+div.circle-feature i{
+font-size:40px;
+}
+
+div.circle-feature .caption{
+font-size:15px;
+}
+
+div.choose-feature-brief{
+font-size:14px;
+white-space:wrap;
+}
+
+
+div.how-it-wrapper{
+margin-top:3rem;
+}
+
+div.how-it-wrapper h1.heading-how{
+font-size:50px;
+}
+
+h1.heading-contact{
+font-size:50px;
+}
+
+div.iframe iframe{
+	padding:30px;
+width:calc(50% - 40px);
+}
+
+
+div.address h2{
+	margin-top:1.5rem;
+line-height:2.3rem;
+}
+
+div.address h2,div.sitemap h2,div.follow-us h2, div.newsletter h2{
+font-size:24px;
+}
+}
+
+@media only screen and (max-width: 768px){
+html,body{
+width:100%;
+height:100%;
+}
+header{
+width:100%;
+height:10vh;
+}
+nav{
+padding:0px 2rem;
+}
+
+
+h1.logo{
+font-size:24px;
+}
+ul.menu-container{
+justify-content:space-between;
+}
+
+ul.menu-container li>a{
+font-size:13px;
+}
+
+ul.menu-container li i{
+font-size:19px;
+}
+
+li.download a{
+padding:7px;
+}
+
+li.menu-bar i{
+font-size:24px !important;
+}
+
+
+div.hero-content{
+padding-top:20px;
+padding-left:50px;
+}
+
+div.hero-content h1.heading-content{
+font-size:40px;
+}
+div.hero-content p.content-paragraph{
+font-size:12px;
+}
+
+button.main-btn{
+width:100px;
+padding:8px;
+font-size:14px;
+}
+
+div.hero-banner img{
+width:90%;
+margin-top:5rem;
+
+}
+
+section.about{
+width:100vw;
+}
+
+div.about-wrapper{
+padding-left:50px;
+padding-top:40px;
+}
+
+div.about-wrapper h1.heading-about{
+font-size:40px;
+}
+
+div.about-wrapper p.about-paragraph{
+	font-size:12px;
+}
+section.why-choose h1{
+font-size:40px;
+}
+
+ul.choose-list li{
+font-size:15px;
+}
+
+div.circle-feature i{
+font-size:30px;
+}
+
+div.circle-feature .caption{
+font-size:12px;
+}
+
+div.choose-feature-brief{
+font-size:10px;
+white-space:wrap;
+}
+
+
+div.how-it-wrapper{
+margin-top:3rem;
+padding-left:50px;
+padding-top:30px;
+}
+
+div.how-it-wrapper h1.heading-how{
+font-size:40px;
+}
+
+div.how-it-wrapper p.how-paragraph{
+font-size:12px;
+}
+
+div.how-banner img{
+margin-top:3rem;
+}
+
+
+h1.heading-contact{
+font-size:50px;
+}
+
+form input{
+width:300px;
+padding:8px;
+}
+::placeholder{
+font-size:13px;
+}
+
+textarea{
+width:300px;
+}
+
+input.email{
+width:200px;
+padding:6px;
+}
+div.address h2{
+margin-top:1.5rem;
+line-height:2.3rem;
+}
+
+
+div.iframe iframe{
+padding:10px;
+width:50%;
+}
+
+div.address h2,div.sitemap h2,div.follow-us h2, div.newsletter h2{
+font-size:16px;
+}
+
+footer p{
+font-size:11px;
+line-height:1rem;
+}
+
+footer ul li{
+font-size:12px;
+}
+
+
+}
